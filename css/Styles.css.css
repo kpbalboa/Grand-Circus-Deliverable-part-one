@@ -1,0 +1,126 @@
+
+ body {
+
+
+ 	background-color: #F0ECEE;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	*{
+	font-family: 'fira sans', sans-serif;
+	text-decoration: none;
+	color: inherit;
+	}
+
+	#menu{
+	display: flex;
+	flex-direction: column;
+	}
+		h2{
+		float: left;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex: 1;
+		font-weight: 400;
+		}
+
+		ul{
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-weight: 300;
+		color: #88898b;
+		font-weight: 300;
+	
+	}
+	.red_button{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	border-radius: 15px;
+	background-color:#FF4850;
+	color:#F0ECEE;	
+	}
+
+	.red{
+	color:#FF4850	
+	}
+
+	a:hover{
+	color: #FF4850;
+	}
+
+	.red_button:hover{
+	background-color:#ccc;
+	color:#FF4850;
+	
+	}
+
+	.container{
+	padding:10px;
+	}
+	
+	#grey{
+	color: #88898b;
+	}
+
+@media only screen and (min-width: 768px) {
+  body {
+
+  	margin: 5px;
+  	padding-right: 20px;
+  	padding-left: 20px;
+	background-image: url("bulldog.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: 600;
+	}
+
+
+
+
+	.red_button{
+	float: left;
+	padding: 10px;
+ 	border-radius: 15px;
+	display: flex;
+	flex: 1;
+	align-items: center;
+	
+	background-color:#FF4850
+	width:auto;
+
+	}
+	h1{
+	padding-top: 10%;
+	max-width: 40%;	
+	}
+	#grey{
+	display: flex;
+	max-width: 40%;
+
+	}
+	#menu{
+	display: flex;
+	flex-direction: row;
+	}
+	
+	ul{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	flex:5%;
+	min-width: 430px;
+	}	
+ 	
+ 		li{
+ 		display: flex;
+ 		word-wrap: none;
+ 		flex: 1;
+ }
+
+ }
+}
